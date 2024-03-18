@@ -28,7 +28,7 @@ with st.sidebar:
                           
                           ['Diabetes Prediction',
                            'Heart Disease Prediction',
-                           'Specialist Doctors Suggestion'],
+                           'Specialist Doctor Suggestion'],
                           icons=['activity','heart','person'],
                           default_index=0)
     
