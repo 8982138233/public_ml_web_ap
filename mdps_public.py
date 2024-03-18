@@ -28,7 +28,7 @@ with st.sidebar:
                           
                            ['Diabetes Prediction',
                            'Heart Disease Prediction',
-                           'Heart Disease And Diabetes Specialist Doctor Suggestion'],
+                           'Heart Disease And Diabete Specialist Doctor Suggestion'],
                           icons=['activity','heart','person'],
                           default_index=0)
 
@@ -153,7 +153,7 @@ if (selected == 'Heart Disease Prediction'):
 
 
 # Parkinson's Prediction Page
-if (selected == " Heart Disease And Diabetes Specialist Doctor Suggestion"):
+if (selected == " Heart Disease And Diabete Specialist Doctor Suggestion"):
     
     st.title("Heart Disease And Diabetes Speacialist Doctor Contacts")
     
@@ -166,6 +166,9 @@ if(st.button("Dr.Pankaj Gupta")):
 
 if(st.button("Dr.R.K Singhal")):       
     st.text(" Mobile Number - 6269841913 .... Address - Janakganj Gwalior")
+
+ st.title("Heart Disease And Diabetes Speacialist Doctor Contacts")
+    
 
 if(st.button("Dr.Dalmia")):     
     st.text("Mobile Number - 9425752462 ..... Address - Gole Ke Mandir Gwalior")
