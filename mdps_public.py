@@ -34,7 +34,16 @@ with st.sidebar:
     
 
 
+ with st.chat_message("user"):
+        st.write("Hello")
+        st.line_chart(np.random.randn(30, 3))
 
+# Display a chat input widget at the bottom of the app.
+        st.chat_input("Say something")
+
+# Display a chat input widget inline.
+    with st.container():
+        st.chat_input("Say something")
 
 
 # Diabetes Prediction Page
@@ -172,14 +181,5 @@ if (selected == "Specialist Doctor Suggestion"):
     st.text("Dr.Ram Rawat - 07512436093")
     st.text("Dr.Dushyant Deo - 7700271131")
 
-    with st.chat_message("user"):
-        st.write("Hello")
-        st.line_chart(np.random.randn(30, 3))
-
-# Display a chat input widget at the bottom of the app.
-        st.chat_input("Say something")
-
-# Display a chat input widget inline.
-    with st.container():
-        st.chat_input("Say something")
+   
     
