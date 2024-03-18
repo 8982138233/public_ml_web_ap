@@ -158,8 +158,8 @@ if (selected == 'Specialist Doctor Suggestion'):
 # Create a button, that when clicked, shows a text
     
     if(st.button("Diabetes Dr.Navneet Agarwal")):
-        st.text("Mobile number - 1860500106 ,\nAddress - Laltitpur Colony Gwalior")
-    
+        st.text("Mobile number - : 0751 407 7724 \nAddress - Laltitpur Colony Gwalior\n 9:30 am–2 pm, 6–8 pm")
+
     if(st.button("Diabetes Dr.Pankaj Gupta")):
         st.text("Mobile Number - 9827869595 .... Address - Tulsi Vihar Colony Gwalior")
 
