@@ -167,7 +167,6 @@ if(st.button("Dr.Pankaj Gupta")):
 if(st.button("Dr.R.K Singhal")):       
     st.text(" Mobile Number - 6269841913 .... Address - Janakganj Gwalior")
 
- st.title("Heart Disease And Diabetes Speacialist Doctor Contacts")
     
 
 if(st.button("Dr.Dalmia")):     
