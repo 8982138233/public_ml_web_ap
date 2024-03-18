@@ -165,7 +165,7 @@ if (selected == 'Specialist Doctor Suggestion'):
     if(st.button("Diabetes Dr.R.K Singhal")):       
         st.text(" Mobile Number - 6269841913 .... Address - Janakganj Gwalior")
 
-st.header("Heart Disease And Diabetes Speacialist Doctor Contacts")
+st.header("Heart Disease And Diabetes Speacialist Doctor Contacts"):
     if(st.button("Heart Dr.Dalmia")):     
         st.text("Mobile Number - 9425752462 ..... Address - Gole Ke Mandir Gwalior")
 
