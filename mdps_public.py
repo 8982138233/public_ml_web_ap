@@ -210,10 +210,10 @@ if (selected == "Specialist Doctor Suggestion"):
     
      # page title
     st.title("Diabetes Speacialist Doctor Contacts ")
-    st.click("Dr.Navneet Agarwal - 18605001066")
+    st.text("Dr.Navneet Agarwal - 18605001066")
     st.text("Dr.Pankaj Gupta - 9827869595")
     st.text("Dr.R.K Singhal - 6269841913")
-    
+    st.link_button("Go to gallery", https://docs.streamlit.io/library/cheatsheet)
     st.title("Heart Disease Speacialist Doctor Contacts")
     st.text("Dr.Dalmia - 9425752462")
     st.text("Dr.Ram Rawat - 07512436093")
