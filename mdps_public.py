@@ -28,8 +28,8 @@ with st.sidebar:
                           
                           ['Diabetes Prediction',
                            'Heart Disease Prediction',
-                           'Diabetes Specialist Doctor Suggestion',
-                          'Heart Specialist Doctor Suggestion'],
+                           'Heart Disease And Diabetes Specialist Doctor Suggestion',
+                          ''],
                           icons=['activity','heart','person','person'],
                           default_index=0)
     
