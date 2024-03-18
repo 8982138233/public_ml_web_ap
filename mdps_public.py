@@ -213,12 +213,10 @@ if (selected == "Specialist Doctor Suggestion"):
      # page title
     st.title("Diabetes Speacialist Doctor Contacts ")
     
-     # Create a simple button that does nothing
-    st.button("Dr.Navneet Agarwal - 18605001066")
- 
+
 # Create a button, that when clicked, shows a text
-if(st.button("About Address")):
-    st.text("Latitpur Colony Gwalior")
+if(st.button("Dr.Navneet Agarwal")):
+    st.text("Mobile number - 1860500106 ...Address - Latitpur Colony Gwalior")
     
     
     st.text("Dr.Pankaj Gupta - 9827869595")
