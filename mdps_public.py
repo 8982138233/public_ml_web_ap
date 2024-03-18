@@ -167,5 +167,4 @@ if (selected == "Specialist Doctor Suggestion"):
     st.text("Dr.Dalmia - 9425752462")
     st.text("Dr.Ram Rawat - 07512436093")
     st.text("Dr.Dushyant Deo - 7700271131")
-
-st.link_button("Go to gallery", https://www.youtube.com/watch?v=ZTz26f6XXrQ)
+    st.link_button("Go to gallery", https://www.youtube.com/watch?v=ZTz26f6XXrQ)
