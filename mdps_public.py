@@ -209,7 +209,7 @@ if (selected == 'Heart Disease Prediction'):
 if (selected == "Diabetes Specialist Doctor Suggestion"):
 
     # page title
-st.title("Diabetes Speacialist Doctor Contacts ")
+    st.title("Diabetes Speacialist Doctor Contacts ")
     
 
 # Create a button, that when clicked, shows a text
