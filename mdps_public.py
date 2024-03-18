@@ -204,7 +204,7 @@ if (selected == 'Heart Disease Prediction'):
     
 
 # Parkinson's Prediction Page
-if (selected == "Diabetes Specialist Doctor Suggestion"):
+if (selected == "Heart Disease And Diabetes Specialist Doctor Suggestion"):
 
     # page title
     st.title("Diabetes Speacialist Doctor Contacts ")
