@@ -208,16 +208,19 @@ if (selected == 'Heart Disease Prediction'):
 # Parkinson's Prediction Page
 if (selected == "Specialist Doctor Suggestion"):
 
-    # Create a simple button that does nothing
-    st.button("Click me for no reason")
- 
-# Create a button, that when clicked, shows a text
-if(st.button("About")):
-    st.text("Welcome To GeeksForGeeks!!!")
+   
     
      # page title
     st.title("Diabetes Speacialist Doctor Contacts ")
-    st.text("Dr.Navneet Agarwal - 18605001066")
+    
+     # Create a simple button that does nothing
+    st.button("Dr.Navneet Agarwal - 18605001066")
+ 
+# Create a button, that when clicked, shows a text
+if(st.button("About Address")):
+    st.text("Latitpur Colony Gwalior")
+    
+    
     st.text("Dr.Pankaj Gupta - 9827869595")
     st.text("Dr.R.K Singhal - 6269841913")
     st.title("Heart Disease Speacialist Doctor Contacts")
