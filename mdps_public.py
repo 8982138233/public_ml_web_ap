@@ -154,7 +154,7 @@ if (selected == 'Heart Disease Prediction'):
 
 # Parkinson's Prediction Page
 if (selected == 'Specialist Doctor Suggestion'):
-    st.header("Heart Disease And Diabetes Speacialist Doctor Contacts")
+    
 # Create a button, that when clicked, shows a text
     if(st.button("Diabetes Dr.Navneet Agarwal")):
         st.text("Mobile number - 1860500106 .... Address - Laltitpur Colony Gwalior")
@@ -165,7 +165,7 @@ if (selected == 'Specialist Doctor Suggestion'):
     if(st.button("Diabetes Dr.R.K Singhal")):       
         st.text(" Mobile Number - 6269841913 .... Address - Janakganj Gwalior")
 
-   
+   st.header("Heart Disease And Diabetes Speacialist Doctor Contacts")
     if(st.button("Heart Dr.Dalmia")):     
         st.text("Mobile Number - 9425752462 ..... Address - Gole Ke Mandir Gwalior")
 
