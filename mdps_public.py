@@ -154,9 +154,9 @@ if (selected == 'Heart Disease Prediction'):
 
 # Parkinson's Prediction Page
 if (selected == 'Specialist Doctor Suggestion'):
-    st.image('./"C:\Users\sharm\Downloads\Screenshot 2024-03-18 230531.png"')
     st.header("Heart Disease And Diabetes Speacialist Doctor Contacts")
 # Create a button, that when clicked, shows a text
+    st.link_button("Go to gallery", url)
     
     if(st.button("Diabetes Dr.Navneet Agarwal")):
         st.text("Mobile number - 1860500106 .... Address - Laltitpur Colony Gwalior")
