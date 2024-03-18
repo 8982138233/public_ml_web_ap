@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun May  8 21:01:15 2022
+Created on friday March  15 21:01:15 2024
 
-@author: siddhardhan
+@author: Rudra sharma
 """
 
 import pickle
@@ -26,9 +26,8 @@ with st.sidebar:
     selected = option_menu('Multiple Disease Prediction System',
                           
                           ['Diabetes Prediction',
-                           'Heart Disease Prediction',
-                           'Parkinsons Prediction'],
-                          icons=['activity','heart','person'],
+                           'Heart Disease Prediction'],
+                          icons=['activity','heart'],
                           default_index=0)
     
     
