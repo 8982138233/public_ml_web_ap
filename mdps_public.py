@@ -165,9 +165,7 @@ if (selected == "About Specialist Doctors Suggestion "):
     
     # creating a button for Prediction    
     if st.button("Dr Navneet agarwal - 18605001066"):
-        parkinsons_prediction = parkinsons_model.predict([[fo, fhi, flo, Jitter_percent, Jitter_Abs, RAP, PPQ,DDP,Shimmer,Shimmer_dB,APQ3,APQ5,APQ,DDA,NHR,HNR,RPDE,DFA,spread1,spread2,D2,PPE]])                          
-
-
+        
 
 
 
