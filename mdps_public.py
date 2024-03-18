@@ -28,7 +28,8 @@ with st.sidebar:
                           
                           ['Diabetes Prediction',
                            'Heart Disease Prediction',
-                           'Specialist Doctor Suggestion'],
+                           'Diabetes Specialist Doctor Suggestion',
+                          'Heart Specialist Doctor Suggestion'],
                           icons=['activity','heart','person'],
                           default_index=0)
     
@@ -206,7 +207,7 @@ if (selected == 'Heart Disease Prediction'):
     
 
 # Parkinson's Prediction Page
-if (selected == "Specialist Doctor Suggestion"):
+if (selected == "Diabetes Specialist Doctor Suggestion"):
 
    
     
@@ -223,6 +224,11 @@ if(st.button("Dr.Pankaj Gupta")):
 
 if(st.button("Dr.R.K Singhal")):       
     st.text(" Mobile Number - 6269841913 .... Address - Janakganj Gwalior")
+
+
+    # Parkinson's Prediction Page
+if (selected == "Heart Disease Specialist Doctor Suggestion"):
+
    
     st.title("Heart Disease Speacialist Doctor Contacts")
 
