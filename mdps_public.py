@@ -159,11 +159,11 @@ if (selected == "Specialist Doctor Suggestion"):
     
      # page title
     st.title("Diabetes Speacialist Doctor Contacts ")
-    st.title("Dr.Navneet Agarwal - 18605001066 ")
-    st.title("Dr.Pankaj Gupta - 9827869595")
-    st.title("Dr.R.K Singhal - 6269841913")
+    st.text("Dr.Navneet Agarwal - 18605001066 ")
+    st.text("Dr.Pankaj Gupta - 9827869595")
+    st.text("Dr.R.K Singhal - 6269841913")
     
     st.title("Diabetes Speacialist Doctor Contacts")
-    st.title("Dr.Dalmia - 9425752462")
-    st.title("Dr.Ram Rawat - 07512436093")
-    st.title("Dr.Dushyant Deo - 7700271131")
+    st.text("Dr.Dalmia - 9425752462")
+    st.text("Dr.Ram Rawat - 07512436093")
+    st.text("Dr.Dushyant Deo - 7700271131")
