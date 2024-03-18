@@ -156,8 +156,8 @@ if (selected == 'Heart Disease Prediction'):
 if (selected == 'Specialist Doctor Suggestion'):
      
 # Create a button, that when clicked, shows a text
-if(st.button("Diabetes Dr.Navneet Agarwal")):
-    st.text("Mobile number - 1860500106 .... Address - Laltitpur Colony Gwalior")
+    if(st.button("Diabetes Dr.Navneet Agarwal")):
+        st.text("Mobile number - 1860500106 .... Address - Laltitpur Colony Gwalior")
     
 if(st.button("Diabetes Dr.Pankaj Gupta")):
     st.text("Mobile Number - 9827869595 .... Address - Tulsi Vihar Colony Gwalior")
