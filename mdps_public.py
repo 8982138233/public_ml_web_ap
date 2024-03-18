@@ -160,7 +160,7 @@ if (selected == "About Specialist Doctors Suggestion "):
     # page title
     st.tittle("Dr Navneet agarwal - 18605001066")
     
-
+print(""Dr Navneet agarwal - 18605001066")
         
 
 
