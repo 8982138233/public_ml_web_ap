@@ -34,7 +34,7 @@ with st.sidebar:
     
 
 with st.chat_message("user"):
->>>    st.write("Hello 👋")
+>>>    st.write("Hello")
 >>>    st.line_chart(np.random.randn(30, 3))
 
 # Display a chat input widget at the bottom of the app.
