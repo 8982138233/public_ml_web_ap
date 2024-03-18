@@ -168,13 +168,4 @@ if (selected == "Specialist Doctor Suggestion"):
     st.text("Dr.Ram Rawat - 07512436093")
     st.text("Dr.Dushyant Deo - 7700271131")
 
- tab1, tab2 = st.tabs(["Tab 1", "Tab2"])
->>> tab1.write("st.title("Diabetes Speacialist Doctor Contacts ")
-    st.click("Dr.Navneet Agarwal - 18605001066")
-    st.text("Dr.Pankaj Gupta - 9827869595")
-    st.text("Dr.R.K Singhal - 6269841913")")
->>> tab2.write("this is tab 2")
-
-# You can also use "with" notation:
->>> with tab1:
->>>   st.radio("Select one:", [1, 2])
+st.link_button("Go to gallery", https://www.youtube.com/watch?v=ZTz26f6XXrQ)
