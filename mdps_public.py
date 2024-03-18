@@ -9,6 +9,7 @@ Created on Sun May  8 21:01:15 2022
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
+from PIL import Image
 
 
 # loading the saved models
@@ -67,6 +68,11 @@ if (selected == 'Diabetes Prediction'):
     with col2:
         Age = st.text_input('Age of the Person')
     
+    img = Image.open(""C:\Users\sharm\Downloads\Screenshot 2024-03-18 230531.png"")
+ 
+# display image using streamlit
+# width is used to set the width of an image
+st.image(img, width=200)
     
     # code for Prediction
     diab_diagnosis = ''
@@ -82,7 +88,6 @@ if (selected == 'Diabetes Prediction'):
           diab_diagnosis = 'The person is not diabetic'
         
     st.success(diab_diagnosis)
-
 
 
 
@@ -213,7 +218,6 @@ if (selected == "Specialist Doctor Suggestion"):
     st.text("Dr.Navneet Agarwal - 18605001066")
     st.text("Dr.Pankaj Gupta - 9827869595")
     st.text("Dr.R.K Singhal - 6269841913")
-    st.link_button("Go to gallery", https://docs.streamlit.io/library/cheatsheet)
     st.title("Heart Disease Speacialist Doctor Contacts")
     st.text("Dr.Dalmia - 9425752462")
     st.text("Dr.Ram Rawat - 07512436093")
