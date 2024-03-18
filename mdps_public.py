@@ -206,14 +206,14 @@ if (selected == 'Heart Disease Prediction'):
     
 
 # Parkinson's Prediction Page
-if (selected == "Specialist Doctor Suggestion"):
+    if (selected == "Specialist Doctor Suggestion"):
 
     # Create a simple button that does nothing
-st.button("Click me for no reason")
+        st.button("Click me for no reason")
  
 # Create a button, that when clicked, shows a text
-if(st.button("About")):
-    st.text("Welcome To GeeksForGeeks!!!")
+    if(st.button("About")):
+        st.text("Welcome To GeeksForGeeks!!!")
     
      # page title
     st.title("Diabetes Speacialist Doctor Contacts ")
