@@ -30,7 +30,7 @@ with st.sidebar:
                            'Heart Disease Prediction',
                            'Heart Disease And Diabetes Specialist Doctor Suggestion',
                           ''],
-                          icons=['activity','heart','person','person'],
+                          icons=['activity','heart','person',],
                           default_index=0)
     
 
