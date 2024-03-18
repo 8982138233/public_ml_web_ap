@@ -159,5 +159,5 @@ if (selected == "Specialist Doctor Suggestion"):
     
      # page title
     st.title("Navneet agarwal - 9926238233
-    "\n Rudra sharma- 8982138233)
+    "\n "Rudra sharma- 8982138233")
   
