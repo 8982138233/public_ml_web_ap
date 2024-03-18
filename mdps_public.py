@@ -158,7 +158,7 @@ if (selected == 'Heart Disease Prediction'):
 if (selected == "About Specialist Doctors Suggestion "):
     
     # page title
-    st.title("Dr Navneet agarwal - 18605001066"\n "Dr Pankaj gupta - 09827869595")
+    st.title("Dr Navneet agarwal - 18605001066")
     
     
    
