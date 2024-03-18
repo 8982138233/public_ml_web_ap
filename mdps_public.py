@@ -28,9 +28,8 @@ with st.sidebar:
                           
                           ['Diabetes Prediction',
                            'Heart Disease Prediction',
-                           'Heart Disease And Diabetes Specialist Doctor Suggestion',
-                          ''],
-                          icons=['activity','heart','person',],
+                           'Heart Disease And Diabetes Specialist Doctor Suggestion'],
+                          icons=['activity','heart','person'],
                           default_index=0)
     
 
@@ -209,10 +208,8 @@ if (selected == 'Heart Disease Prediction'):
 # Parkinson's Prediction Page
 if (selected == "Diabetes Specialist Doctor Suggestion"):
 
-   
-    
-     # page title
-    st.title("Diabetes Speacialist Doctor Contacts ")
+    # page title
+st.title("Diabetes Speacialist Doctor Contacts ")
     
 
 # Create a button, that when clicked, shows a text
