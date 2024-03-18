@@ -159,7 +159,7 @@ if (selected == 'Specialist Doctor Suggestion'):
         st.text("Mobile number -  07514077724\nAddress - Laltitpur Colony Gwalior\n Mon-Sat Timings- 9:30 am– 8 pm")
     
     if(st.button("Diabetes Dr.Pankaj Gupta")):
-        st.text("Mobile Number - 9827869595\nAddress - Tulsi Vihar Colony Gwalior\ Mon- Sat Timings 10:00 am - 16:00 pm")
+        st.text("Mobile Number - 9827869595\nAddress - Tulsi Vihar Colony Gwalior\n Mon- Sat Timings 10:00 am - 16:00 pm")
 
     if(st.button("Diabetes Dr.R.K Singhal")):       
         st.text(" Mobile Number - 6269841913\nAddress - Janakganj Gwalior\nMon- Sat Timings 10:00am - 17:00 pm")
