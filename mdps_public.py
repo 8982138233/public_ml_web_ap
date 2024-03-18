@@ -34,6 +34,8 @@ with st.sidebar:
                           default_index=0)
     
 
+
+
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
     
@@ -227,12 +229,10 @@ if(st.button("Dr.R.K Singhal")):
 
 
 
-
-
     # Parkinson's Prediction Pages
 if (selected == "Heart Disease Specialist Doctor Suggestion"):
 
-   
+   #page title
     st.title("Heart Disease Speacialist Doctor Contacts")
 
 if(st.button("Dr.Dalmia")):     
