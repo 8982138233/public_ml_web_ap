@@ -227,12 +227,6 @@ if(st.button("Dr.Pankaj Gupta")):
 if(st.button("Dr.R.K Singhal")):       
     st.text(" Mobile Number - 6269841913 .... Address - Janakganj Gwalior")
 
-
-
-    # Parkinson's Prediction Pages
-if (selected == "Heart Disease Specialist Doctor Suggestion"):
-
-   #page title
     st.title("Heart Disease Speacialist Doctor Contacts")
 
 if(st.button("Dr.Dalmia")):     
