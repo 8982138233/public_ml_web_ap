@@ -1,8 +1,9 @@
+
 # -*- coding: utf-8 -*-
 """
-Created on friday March  15 21:01:15 2024
+Created on Sun May  8 21:01:15 2022
 
-@author: Rudra sharma
+@author: siddhardhan
 """
 
 import pickle
@@ -26,8 +27,9 @@ with st.sidebar:
     selected = option_menu('Multiple Disease Prediction System',
                           
                           ['Diabetes Prediction',
-                           'Heart Disease Prediction'],
-                          icons=['activity','heart'],
+                           'Heart Disease Prediction',
+                           'About Specialist Doctors Suggestion'],
+                          icons=['activity','heart','person'],
                           default_index=0)
     
     
@@ -152,6 +154,14 @@ if (selected == 'Heart Disease Prediction'):
     
     
 
+# Parkinson's Prediction Page
+if (selected == "About Specialist Doctors Suggestion "):
+    
+    # page title
+    st.title("Dr Navneet agarwal - 18605001066"\n "Dr Pankaj gupta - 09827869595")
+    
+    
+   
 
 
 
