@@ -158,6 +158,9 @@ if (selected == 'Heart Disease Prediction'):
 if (selected == "Specialist Doctor Suggestion"):
     
      # page title
-    st.title("Navneet agarwal - 9926238233
-    "n/ "Rudra sharma- 8982138233")
+    st.title("Diabetes Speacialist Doctor Contacts ")
+    st.title("Dr Navneet Agarwal - 18605001066 ")
+    st.title("Dr Pankaj Gupta - 9827869595")
+    st.title("Dr Mukesh Gupta - 6269841913")
+    st.title("Dr R.K.Singhal - 6269841913")
   
