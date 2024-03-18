@@ -160,9 +160,6 @@ if (selected == "About Specialist Doctors Suggestion "):
     # page title
     st.title("Dr Navneet agarwal - 18605001066")
     
-    
-   parkinsons_diagnosis = ''
-    
     # creating a button for Prediction    
     if st.button("Dr Navneet agarwal - 18605001066"):
         
