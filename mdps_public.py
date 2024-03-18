@@ -9,7 +9,6 @@ Created on Sun May  8 21:01:15 2022
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
-from PIL import Image
 
 
 # loading the saved models
@@ -69,10 +68,7 @@ if (selected == 'Diabetes Prediction'):
         Age = st.text_input('Age of the Person')
     
     img = Image.open(""C:\Users\sharm\Downloads\Screenshot 2024-03-18 230531.png"")
- 
-# display image using streamlit
-# width is used to set the width of an image
-st.image(img, width=200)
+    st.image(img, width=200)
     
     # code for Prediction
     diab_diagnosis = ''
