@@ -158,10 +158,9 @@ if (selected == 'Heart Disease Prediction'):
 if (selected == "About Specialist Doctors Suggestion "):
     
     # page title
-    st.title("Dr Navneet agarwal - 18605001066")
+    st.tittle("Dr Navneet agarwal - 18605001066")
     
-    # creating a button for Prediction    
-    if st.button("Dr Navneet agarwal - 18605001066"):
+
         
 
 
