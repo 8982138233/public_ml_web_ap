@@ -149,11 +149,11 @@ if (selected == 'Heart Disease Prediction'):
           heart_diagnosis = 'The person does not have any heart disease'
         
     st.success(heart_diagnosis)
-        
+
+
+
 # Parkinson's Prediction Page
 if (selected == " Heart Disease And Diabetes Specialist Doctor Suggestion"):
-
-    # page title
     st.title(" Heart Disease And Diabetes Speacialist Doctor Contacts ")
     
 # Create a button, that when clicked, shows a text
