@@ -155,7 +155,7 @@ if (selected == 'Heart Disease Prediction'):
     
 
 # Parkinson's Prediction Page
-if (selected == "About Specialist Doctors Suggestion "):
+if (selected == "Specialist Doctor Suggestion"):
     
      # page title
     st.title("Parkinson's Disease Prediction using ML")
