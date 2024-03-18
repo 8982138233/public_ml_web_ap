@@ -158,7 +158,7 @@ if (selected == 'Heart Disease Prediction'):
 if (selected == "Specialist Doctor Suggestion"):
     
      # page title
-    st.title("Parkinson's Disease Prediction using ML")
+    st.title("Navneet agarwal - 9926238233 ")
     
     col1, col2, col3, col4, col5 = st.columns(5)  
     
