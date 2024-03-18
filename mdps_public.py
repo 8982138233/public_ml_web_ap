@@ -164,6 +164,9 @@ if (selected == "Specialist Doctor Suggestion"):
     st.text("Dr.R.K Singhal - 6269841913")
     
     st.title("Heart Disease Speacialist Doctor Contacts")
-    st.text_button("Dr.Dalmia - 9425752462")
+    st.text("Dr.Dalmia - 9425752462")
     st.text("Dr.Ram Rawat - 07512436093")
     st.text("Dr.Dushyant Deo - 7700271131")
+
+WebElement button = driver.findElement(By.linkText("Login"));
+button.click();
