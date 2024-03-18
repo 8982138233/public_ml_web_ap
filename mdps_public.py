@@ -156,7 +156,7 @@ if (selected == 'Heart Disease Prediction'):
 if (selected == 'Specialist Doctor Suggestion'):
     st.header("Heart Disease And Diabetes Speacialist Doctor Contacts")
 # Create a button, that when clicked, shows a text
-    st.link_button("Go to gallery", https://www.geeksforgeeks.org/a-beginners-guide-to-streamlit/)
+st.link_button("Go to gallery",https://docs.streamlit.io/library/cheatsheet)
     
     if(st.button("Diabetes Dr.Navneet Agarwal")):
         st.text("Mobile number - 1860500106 .... Address - Laltitpur Colony Gwalior")
