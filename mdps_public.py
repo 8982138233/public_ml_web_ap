@@ -158,22 +158,21 @@ if (selected == "Specialist Doctor Suggestion"):
     st.title("Heart Disease And Diabetes Speacialist Doctor Contacts")
     
 # Create a button, that when clicked, shows a text
-if(st.button("Dr.Navneet Agarwal")):
+if(st.button("Diabetes Dr.Navneet Agarwal")):
     st.text("Mobile number - 1860500106 .... Address - Laltitpur Colony Gwalior")
     
-if(st.button("Dr.Pankaj Gupta")):
+if(st.button("Diabetes Dr.Pankaj Gupta")):
     st.text("Mobile Number - 9827869595 .... Address - Tulsi Vihar Colony Gwalior")
 
-if(st.button("Dr.R.K Singhal")):       
+if(st.button("Diabetes Dr.R.K Singhal")):       
     st.text(" Mobile Number - 6269841913 .... Address - Janakganj Gwalior")
 
-    
-
-if(st.button("Dr.Dalmia")):     
+   
+if(st.button("Heart Dr.Dalmia")):     
     st.text("Mobile Number - 9425752462 ..... Address - Gole Ke Mandir Gwalior")
 
-if(st.button("Dr.Ram Rawat")):  
+if(st.button("Heart Dr.Ram Rawat")):  
     st.text("Mobile Number - 07512436093 .... Address - Kampoo Bus stand Gwalior")
 
-if(st.button("Dr.Dushyant Deo")):     
+if(st.button("Heart Dr.Dushyant Deo")):     
     st.text("Mobile Number - 7700271131 .... Address jhinshi Road no.3 gwalior  ")
