@@ -34,20 +34,20 @@ with st.sidebar:
     
 
 with st.chat_message("user"):
->>>    st.write("Hello")
->>>    st.line_chart(np.random.randn(30, 3))
+    st.write("Hello")
+    st.line_chart(np.random.randn(30, 3))
 
 # Display a chat input widget at the bottom of the app.
->>> st.chat_input("Say something")
+    st.chat_input("Say something")
 
 # Display a chat input widget inline.
->>> with st.container():
->>>     st.chat_input("Say something")
+with st.container():
+    st.chat_input("Say something")
 
 
 
 # Diabetes Prediction Page
-if (selected == 'Diabetes Prediction'):
+    if (selected == 'Diabetes Prediction'):
     
     # page title
     st.title('Diabetes Prediction using ML')
