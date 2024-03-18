@@ -70,7 +70,6 @@ if (selected == 'Diabetes Prediction'):
     with col2:
         Age = st.text_input('Age of the Person')
     
-  
     
     # code for Prediction
     diab_diagnosis = ''
@@ -86,6 +85,7 @@ if (selected == 'Diabetes Prediction'):
           diab_diagnosis = 'The person is not diabetic'
         
     st.success(diab_diagnosis)
+
 
 
 
@@ -136,8 +136,6 @@ if (selected == 'Heart Disease Prediction'):
     with col1:
         thal = st.text_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
         
-
-
 
 
 # Heart Disease Prediction Page
