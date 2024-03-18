@@ -26,13 +26,11 @@ with st.sidebar:
     
     selected = option_menu('Multiple Disease Prediction System',
                           
-                          ['Diabetes Prediction',
+                           ['Diabetes Prediction',
                            'Heart Disease Prediction',
                            'Heart Disease And Diabetes Specialist Doctor Suggestion'],
                           icons=['activity','heart','person'],
                           default_index=0)
-    
-
 
 
 # Diabetes Prediction Page
