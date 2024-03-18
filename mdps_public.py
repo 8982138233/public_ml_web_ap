@@ -159,7 +159,7 @@ if (selected == "Specialist Doctor Suggestion"):
     
      # page title
     st.title("Diabetes Speacialist Doctor Contacts ")
-    st.text("Dr.Navneet Agarwal - 18605001066 
+    st.text("Dr.Navneet Agarwal - 18605001066 \n
     address shinghal bhawan ")
     st.text("Dr.Pankaj Gupta - 9827869595")
     st.text("Dr.R.K Singhal - 6269841913")
