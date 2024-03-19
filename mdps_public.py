@@ -77,6 +77,7 @@ if (selected == 'Diabetes Prediction'):
         
         if (diab_prediction[0] == 1):
           diab_diagnosis = 'The Person Is Diabetic'
+            st.markdown(":red[You have take prcaution]")
         else:
           diab_diagnosis = 'The Person Is Not Diabetic'
         
@@ -146,6 +147,7 @@ if (selected == 'Heart Disease Prediction'):
         
         if (heart_prediction[0] == 1):
           heart_diagnosis = 'The Person Is Having Heart Disease'
+            
         else:
           heart_diagnosis = 'The Person Does Not Have Any Heart Disease'
         
