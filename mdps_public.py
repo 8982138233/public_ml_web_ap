@@ -76,11 +76,12 @@ if (selected == 'Diabetes Prediction'):
         diab_prediction = diabetes_model.predict([[Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]])
         
         if (diab_prediction[0] == 1):
-          diab_diagnosis = st.markdown = 'The Person Is :Red[Diabetic]'
+          diab_diagnosis = 'The Person Is Diabetic'
         else:
-          diab_diagnosis = 'The Person Is Not Diabetic'
+          diab_diagnosise = 'The Person Is Not Diabetic'
         
     st.success(diab_diagnosis)
+    st.erorr(diab_diagnosise)
 
 
 
