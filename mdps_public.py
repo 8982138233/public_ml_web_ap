@@ -20,6 +20,7 @@ heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 
 
 
+
 # sidebar for navigation
 with st.sidebar:
     
@@ -33,7 +34,7 @@ with st.sidebar:
 
 
 if (selected == 'Diabetes Prediction'):
-    
+    st.text_style("The person does not have any heart disease"colors.red)
     # page title
     st.title('Diabetes Prediction using ML')
     
