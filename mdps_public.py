@@ -34,7 +34,7 @@ with st.sidebar:
 
 
 if (selected == 'Diabetes Prediction'):
-    st.text_style("The person does not have any heart disease"colors.red)
+    
     # page title
     st.title('Diabetes Prediction using ML')
     
@@ -76,9 +76,9 @@ if (selected == 'Diabetes Prediction'):
         diab_prediction = diabetes_model.predict([[Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]])
         
         if (diab_prediction[0] == 1):
-          diab_diagnosis = 'The person is diabetic'
+          diab_diagnosis = 'The Person Is :Red[Diabetic]'
         else:
-          diab_diagnosis = 'The person is not diabetic'
+          diab_diagnosis = 'The Person Is Not Diabetic'
         
     st.success(diab_diagnosis)
 
