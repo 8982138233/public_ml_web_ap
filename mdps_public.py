@@ -78,10 +78,10 @@ if (selected == 'Diabetes Prediction'):
         if (diab_prediction[0] == 1):
           diab_diagnosis = 'The Person Is Diabetic'
         else:
-          diab_diagnosise = 'The Person Is Not Diabetic'
+          diab_diagnosis = 'The Person Is Not Diabetic'
         
     st.success(diab_diagnosis)
-    st.erorr(diab_diagnosise)
+    
 
 
 
@@ -145,9 +145,9 @@ if (selected == 'Heart Disease Prediction'):
         heart_prediction = heart_disease_model.predict([[age, sex, cp, trestbps, chol, fbs, restecg,thalach,exang,oldpeak,slope,ca,thal]])                          
         
         if (heart_prediction[0] == 1):
-          heart_diagnosis = 'The person is having heart disease'
+          heart_diagnosis = 'The Person Is Having Heart Disease'
         else:
-          heart_diagnosis = 'The person does not have any heart disease'
+          heart_diagnosis = 'The Person Does Not Have Any Heart Disease'
         
     st.success(heart_diagnosis)
 
